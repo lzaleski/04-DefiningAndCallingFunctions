@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (3 pts)
+# DONE: 1. (3 pts)
 #
 #   Sometimes, we want to create a function that does some things but then
 #   gives us some information back when it is done. We call that "returning"
@@ -18,10 +18,11 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-def volume(length: int,width: int, height: int):
-    return length* width* height
+def volume(length: int,width: int, height: int) -> int:
+    volumefunction= length*width*height
+    return volumefunction 
 ###############################################################################
-# TODO: 2. (2 pts)
+# DONE: 2. (2 pts)
 #
 #   Now let's call that function and get its information.
 #
@@ -46,4 +47,5 @@ def volume(length: int,width: int, height: int):
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-volume(1,1,1)
+printedVolume=volume(1, 2, 3)
+print(printedVolume)
