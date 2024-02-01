@@ -25,8 +25,9 @@
 def name_and_color(name, color):
     print("Your name is " +name, "and your favorite color is " + color )
 name_and_color(name="john", color="green")
+
 ###############################################################################
-# TODO: 2. (4 pts)
+# DONE: 2. (4 pts)
 #
 #   Now, let's do something similar, but let's use keyword arguments (this is
 #   also something that you saw in the pre-class materials).
@@ -56,3 +57,10 @@ name_and_color(name="john", color="green")
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+def display_user_info(name, email, age):
+    print("""
+          Name: """+name,
+          """
+          Email: """ +email, """
+          Age: """ +age)
+display_user_info(name="Leon Zaleski", email="lzaleski001@student.franciscan.edu", age="18")
