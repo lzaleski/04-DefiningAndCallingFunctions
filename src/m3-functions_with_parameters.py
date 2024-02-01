@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (4 pts)
+# DONE: 1. (4 pts)
 #
 #   As you saw in your pre-class quiz, we can also define functions that take
 #   information and do stuff with it. This information that the function uses
@@ -22,7 +22,9 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+def name_and_color(name, color):
+    print("Your name is " +name, "and your favorite color is " + color )
+name_and_color(name="john", color="green")
 ###############################################################################
 # TODO: 2. (4 pts)
 #
