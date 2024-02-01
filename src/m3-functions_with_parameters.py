@@ -23,7 +23,7 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 def name_and_color(name, color):
-    print("Your name is " +name, "and your favorite color is " + color )
+    print(f"Your name is " +name, "and your favorite color is " + color )
 name_and_color(name="john", color="green")
 
 ###############################################################################
