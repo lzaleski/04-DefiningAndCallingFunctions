@@ -18,7 +18,8 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+def volume(length: int,width: int, height: int):
+    return length* width* height
 ###############################################################################
 # TODO: 2. (2 pts)
 #
@@ -45,3 +46,4 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+volume(1,1,1)

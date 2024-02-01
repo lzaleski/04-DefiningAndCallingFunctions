@@ -23,8 +23,8 @@
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 def name_and_color(name, color):
-    print(f"Your name is " +name, "and your favorite color is " + color )
-name_and_color(name="john", color="green")
+    print(f"Your name is {name}, and your favorite color is {color}" )
+name_and_color(name="John", color="green")
 
 ###############################################################################
 # DONE: 2. (4 pts)
@@ -58,9 +58,8 @@ name_and_color(name="john", color="green")
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
 def display_user_info(name, email, age):
-    print("""
-          Name: """+name,
-          """
-          Email: """ +email, """
-          Age: """ +age)
+    print( f"""
+          Name: {name},
+          Email: {email}, 
+          Age: {age} """)
 display_user_info(name="Leon Zaleski", email="lzaleski001@student.franciscan.edu", age="18")
